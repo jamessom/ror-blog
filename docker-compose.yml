@@ -1,0 +1,15 @@
+version: '2'
+
+services:
+  rorb_web:
+    image: rorb_web:latest
+    container_name: rorb_web
+    build: .
+    command: sh start
+    volumes: [ ".:/rorb", ".rorb_gems:/.rorb_gems" ]
+    ports: [ "3001:3000" ]
+    environment:
+      RAILS_ENV: 'development'
+
+volumes:
+  .rorb_gems:
