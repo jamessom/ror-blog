@@ -10,7 +10,7 @@ gem 'coffee-rails', '~> 4.2', '>= 4.2.1'
 gem 'jquery-rails', '~> 4.2', '>= 4.2.2'
 gem 'turbolinks', '~> 5.0', '>= 5.0.1'
 gem 'jbuilder', '~> 2.6', '>= 2.6.1'
-gem 'puma', '~> 3.12'
+gem 'puma', '~> 4.3'
 
 group :doc do
   gem 'sdoc', '~> 0.4.2', require: false
